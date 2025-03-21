@@ -58,6 +58,7 @@
     }
     #section7 h2 {
         width: auto;
+        font-size: 25px;
     }
     footer {
         flex-direction: column;
@@ -102,3 +103,15 @@
     
 }
 
+@media (max-width: 400px) {
+    h3 {
+        font-size: 30px;}
+    .logo {
+        display: flex    ;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+.cmnBtn {
+    padding: 8px 10px;}
+}
