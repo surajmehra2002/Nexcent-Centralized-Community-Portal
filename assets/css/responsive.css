@@ -37,6 +37,7 @@
 }
 
 @media (max-width: 767px) {
+    
     h1 {
         font-size: 35px;
     }
