@@ -37,8 +37,15 @@
 }
 
 @media (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+    .section4-items p{
+        text-align: justify;
+    }
     #info {
-        width: 85%;
+        width: 90%;
+        text-align: justify;
     }
     .card-items {
         padding: 20px 30px;
@@ -57,8 +64,9 @@
     }
     
     #craft-con {
-        width: 85%;
+        width: 90%;
         margin: 20px auto;
+        text-align: justify;
     }
     .mobile-img{
         display: none
